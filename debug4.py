@@ -9,8 +9,10 @@ if x = 3:
 else:
     print("x = 4")
 """
-x = 3
-if x = 3:
+x = input ("enter a number")
+x = float(x)
+
+if x == 3:
     print("x is 3")
 else:
-    print("x = 4")
+    print("x is not 3")

@@ -10,7 +10,9 @@ x = Input("enter a float number:")
 round(x)
 print(x)
 """
+import math
 
-x = Input("enter a float number:")
-round(x)
+x = input("enter a float number:")
+x = float(x)
+x = round(x,2)
 print(x)
